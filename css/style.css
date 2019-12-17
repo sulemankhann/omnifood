@@ -81,7 +81,6 @@ h3 {
   line-height: 145%;
   width: 70%;
   margin-left: 15%;
-  margin-bottom: 20px;
 }
 
 .box p {
@@ -197,4 +196,50 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+/*  -------------------------------------------- */
+/* FEATURE SECTION    */
+/*  -------------------------------------------- */
+
+.section-features .long-copy {
+  margin-bottom: 30px;
+}
+/*  -------------------------------------------- */
+/* MEALS SECTION    */
+/*  -------------------------------------------- */
+
+.section-meals {
+  padding: 0;
+}
+.meals-showcase {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+
+.meals-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.meal-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: #000;
+}
+.meal-photo img {
+  opacity: 0.7;
+  width: 100%;
+  height: auto;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover {
+  opacity: 1;
+  transform: scale(1.03);
 }
